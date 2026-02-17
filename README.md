@@ -8,6 +8,6 @@ Google Blog - http://fmrioh.blogspot.com/?m=1
 
 Work Sample :
 - OCR Image Extractor - http://156.67.110.254:8000/
-- AI Databse Integrated Chatbot - http://156.67.110.254:8001/ 
+- AI Database Integrated RAG Chatbot - http://156.67.110.254:8001/ 
 
  
